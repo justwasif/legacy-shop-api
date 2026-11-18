@@ -1,0 +1,22 @@
+{
+  "name": "legacy-shop-api",
+  "version": "1.0.0",
+  "description": "Demo Express API with intentionally risky dependencies",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "lodash": "4.17.15",
+    "node-fetch": "2.6.0",
+    "minimist": "1.2.0",
+    "request": "^2.88.2",
+    "left-pad": "*",
+    "debug": "latest",
+    "uuid": "^9.0.0",
+    "cors": "~2.8.5",
+    "helmet": "git+https://github.com/helmetjs/helmet.git#v7.0.0",
+    "mkdirp": "0.3.0"
+  }
+}
